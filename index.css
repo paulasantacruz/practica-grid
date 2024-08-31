@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header-container {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 1px;
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
+}
+
+.company-name {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.main-menu .menu-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+.menu-item a:hover {
+    background-color: #005580;
+    border-radius: 5px;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #006699;
+}
+
+.footer-container {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container .section-title {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.social-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-item a:hover {
+    color: #990000;
+}
+
+/* pp */
+@media screen and (max-width: 300px) {
+    body {
+        background-color: #e2e1d7;
+    }
+    .pp1 { width: 8.33%; }
+    .pp2 { width: 16.66%; }
+    .pp3 { width: 25%; }
+    .pp4 { width: 33.33%; }
+    .pp5 { width: 41.66%; }
+    .pp6 { width: 50%; }
+    .pp7 { width: 58.33%; }
+    .pp8 { width: 66.66%; }
+    .pp9 { width: 75%; }
+    .pp10 { width: 83.33%; }
+    .pp11 { width: 91.66%; }
+    .pp12 { width: 100%; }
+}
+
+/* pm */
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    body {
+        background-color: #2196f3;
+    }
+    .pm1 { width: 8.33%; }
+    .pm2 { width: 16.66%; }
+    .pm3 { width: 25%; }
+    .pm4 { width: 33.33%; }
+    .pm5 { width: 41.66%; }
+    .pm6 { width: 50%; }
+    .pm7 { width: 58.33%; }
+    .pm8 { width: 66.66%; }
+    .pm9 { width: 75%; }
+    .pm10 { width: 83.33%; }
+    .pm11 { width: 91.66%; }
+    .pm12 { width: 100%; }
+}
+
+/* pg */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: #36b8f4;
+    }
+    .pg1 { width: 8.33%; }
+    .pg2 { width: 16.66%; }
+    .pg3 { width: 25%; }
+    .pg4 { width: 33.33%; }
+    .pg5 { width: 41.66%; }
+    .pg6 { width: 50%; }
+    .pg7 { width: 58.33%; }
+    .pg8 { width: 66.66%; }
+    .pg9 { width: 75%; }
+    .pg10 { width: 83.33%; }
+    .pg11 { width: 91.66%; }
+    .pg12 { width: 100%; }
+}
+
+/*mp */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(248, 241, 248);
+    }
+    .mp1 { width: 8.33%; }
+    .mp2 { width: 16.66%; }
+    .mp3 { width: 25%; }
+    .mp4 { width: 33.33%; }
+    .mp5 { width: 41.66%; }
+    .mp6 { width: 50%; }
+    .mp7 { width: 58.33%; }
+    .mp8 { width: 66.66%; }
+    .mp9 { width: 75%; }
+    .mp10 { width: 83.33%; }
+    .mp11 { width: 91.66%; }
+    .mp12 { width: 100%; }
+}
+
+/*mg */
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: rgb(28, 32, 28);
+    }
+    .mg1 { width: 8.33%; }
+    .mg2 { width: 16.66%; }
+    .mg3 { width: 25%; }
+    .mg4 { width: 33.33%; }
+    .mg5 { width: 41.66%; }
+    .mg6 { width: 50%; }
+    .mg7 { width: 58.33%; }
+    .mg8 { width: 66.66%; }
+    .mg9 { width: 75%; }
+    .mg10 { width: 83.33%; }
+    .mg11 { width: 91.66%; }
+    .mg12 { width: 100%; }
+}
